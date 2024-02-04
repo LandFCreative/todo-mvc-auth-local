@@ -1,11 +1,8 @@
 # Introduction
 
-A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so folx can sign up, customize & personalize the app 
+A Simple ToDo App followed from 100 Devs project. It is built using the MVC Architecture, we have also implemented "authorization" so people can sign up, customize & personalize the app 
 
----
-
-> Be sure to add that lovely star 😀 and fork it for your own copy
-
+<img src="./todoscreen.png" width=70%/>
 ---
 
 # Objectives
@@ -39,6 +36,5 @@ bcrypt, connect-mongo, dotenv, ejs, express, express-flash, express-session, mon
   - DB_STRING: `your database URI` 
  ---
  
- Have fun testing and improving it! 😎
 
 
