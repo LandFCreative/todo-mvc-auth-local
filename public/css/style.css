@@ -1,10 +1,52 @@
+
+.todobody {
+    margin: 10%;
+    background-image: url("/kierunsplash.jpg");
+    background-size: cover; 
+}
+
+
+.header {
+    box-shadow: .3em 0.3em 1em rgba(200, 0, 0, 0.6);
+    padding: 15px;
+}
+
+
+.todoItem{
+    padding: 10px;
+    font-family: 'Homemade Apple', cursive;
+    font-size: small;
+
+}
+
+ul {
+    text-decoration: none;
+}
+
 h1{
-    color: red;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(41, 92, 137);
+}
+
+
+h3{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(41, 92, 137);
+    
 }
 .completed{
     text-decoration: line-through;
     color: gray;
 }
-.not{
+/* .not{
     text-decoration: underline;
+} */
+
+.addtodo{
+    margin: 1%;
+}
+
+.logout {
+    color: rgb(41, 92, 137);
+    text-decoration: none;  
 }
