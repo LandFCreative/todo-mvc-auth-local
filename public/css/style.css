@@ -1,39 +1,76 @@
 
-.todobody {
+body{
     margin: 10%;
     background-image: url("/kierunsplash.jpg");
     background-size: cover; 
 }
 
+/* index page */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    border: 1px solid black;
+}
 
-.header {
+.Heading{display: flex;
+}
+
+.links {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(155, 131, 9);
+    margin: 0 0.5rem;
+}
+
+
+
+/* TODO page */
+
+
+
+.todobody {
+    margin: 10%;
+    display: flex;
+    flex-direction: row;
+    
     box-shadow: .3em 0.3em 1em rgba(200, 0, 0, 0.6);
+    
+}
+
+.leftcolumn {
+    display:flex;
+    flex-direction: column;
     padding: 15px;
+    width: 65%;
+    border: 1px red solid;
 }
 
 
 .todoItem{
     padding: 10px;
     font-family: 'Homemade Apple', cursive;
-    font-size: small;
-
+    font-size: 1.3em;
 }
 
 ul {
     text-decoration: none;
 }
 
-h1{
+h1, h3{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(41, 92, 137);
+    color: rgb(14, 51, 83);
 }
 
 
-h3{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(41, 92, 137);
-    
-}
 .completed{
     text-decoration: line-through;
     color: gray;
@@ -42,11 +79,26 @@ h3{
     text-decoration: underline;
 } */
 
+.rightcolumn{
+    display: flex;
+    flex-direction: column;
+    border: 1px green solid;
+    width: 35%;
+    margin: 2%;
+
+}
+
 .addtodo{
     margin: 1%;
 }
 
+.addtodo input[type="text"] {
+    width: 70%;
+    box-sizing: border-box;
+  } 
+
 .logout {
+    margin: auto;
     color: rgb(41, 92, 137);
     text-decoration: none;  
 }
