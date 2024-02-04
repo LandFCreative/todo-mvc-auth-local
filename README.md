@@ -2,6 +2,8 @@
 
 A Simple ToDo App is built using the MVC Architecture, we have also implemented "authorization" so users can sign up, customize & personalize the app 
 
+
+<img src="./public/TodoMVC.png" width=70%/>
 ---
 
 
